@@ -25,4 +25,3 @@ COPY --from=build /app/target/*.war ./
 
 # Run Tomcat
 EXPOSE 8089
-CMD ["catalina.sh", "run"]
